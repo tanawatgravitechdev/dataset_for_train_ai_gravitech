@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['019', '223', 'DIODE', 'LED', 'R1', 'R2', 'R3', 'R4', 'TCE', 'TRANSISTOR']
+
+roboflow:
+  workspace: test-91vxr
+  project: test_elp_gravitech
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-91vxr/test_elp_gravitech/dataset/1
